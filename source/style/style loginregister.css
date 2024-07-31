@@ -1,0 +1,90 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../img/circuito-blu-ad-alta-tecnologia-4k-hq_997534-681.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 300px; /* Ajusta según sea necesario */
+}
+
+.login-box .logo {
+  position: absolute;
+  top: -70px; /* Ajusta para posicionar el logo */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px; /* Ajusta el tamaño según sea necesario */
+}
+
+.login-box h2 {
+  margin-top: 60px; /* Ajusta el margen para evitar superposición */
+  margin-bottom: 30px;
+  padding: 0;
+  color: #333;
+}
+
+.textbox {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 10px;
+  background: #f0f0f0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.checkbox {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.btn {
+  width: 100%;
+  background: #28a745;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+.login-box a {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.login-box a:hover {
+  color: #28a745;
+}

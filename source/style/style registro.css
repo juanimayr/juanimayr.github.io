@@ -1,0 +1,82 @@
+/* Estilos para el formulario de registro */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/wp9314356-4k-technology-desktop-wallpapers.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-dfs {
+    position: absolute;
+    top: -60px; /* Ajusta este valor según el tamaño de tu logo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px; /* Ajusta el ancho según tu logo */
+    height: auto;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.register-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.register-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #333;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    background: #28a745;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #218838;
+}
+
+.register-box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.register-box a:hover {
+    color: #28a745;
+}

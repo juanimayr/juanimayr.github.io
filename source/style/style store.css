@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5f27cd;
+    color: #5f27cd;
+}
+
+header {
+    background-color: #341f97;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Alinea los elementos al centro */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    background-color: #341f97;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.navbar a {
+
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 50px;
+    border: 2px solid #ee5253;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+nav ul li a:hover {
+    background-color: #ee5253;
+    color: #ffffff;
+}
+
+.navbar img {
+    height: 50px;
+    width: 50px;
+}
+
+.search-bar {
+    margin: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    margin: 15px;
+    padding: 15px;
+    width: calc(25% - 60px);
+    box-sizing: border-box;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #888;
+}
+
+.product-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50; /* Agrega un borde a los botones */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #341f97;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 50%;
+}
